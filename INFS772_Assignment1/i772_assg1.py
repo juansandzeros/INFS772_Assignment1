@@ -13,7 +13,6 @@ def list_ele_idx(li):
     for item in li:
         index = li.index(item)
         lis.append( (item, index) )
-    lis = tuple(lis)
     return lis # return a list of tuples
 
 # task 2: Write a program to reverse/inverse key:value like below.
