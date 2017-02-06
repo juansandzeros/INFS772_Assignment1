@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da22b6c6-d145-4b0c-8aa1-1c336900d50f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>i772_assg1.py</StartupFile>
+    <StartupFile>wordcount.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

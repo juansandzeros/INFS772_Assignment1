@@ -1,10 +1,16 @@
-__author__ = 'jliu' # change author name
+__author__ = 'Juan Harrington' # change author name
 
 # this method counts how many times each element appears in the list. It outputs a dictionary. Each key-value pair
 # show a list element and its number of occurrences
 def count_list(li):
     dict = {}
     # your code here - the test cases are available in the main method
+    #dict = [[x,li.count(x)] for x in set(li)]
+    for item in li:
+        if not item in dict:
+            dict[item] = 1
+        else:
+            dict[item] = dict[item] + 1
     return dict
 
 def main():

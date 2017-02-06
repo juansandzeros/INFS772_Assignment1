@@ -44,6 +44,8 @@ def charcount(s):
     result = {}
     # your code here - converting a string to list of character is easy. You just call list(s). You then need to
     # call the count_list function in the util module.
+    from util import count_list
+    result = count_list(s)
     return result
 
 # run the program using a main() function
